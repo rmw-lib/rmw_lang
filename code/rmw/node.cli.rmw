@@ -1,0 +1,46 @@
+> path # 测试
+    join
+  https://deno.land/x/lodash@4.17.19/lib/fp/build-doc.js
+  fs: 文件 # 123
+    readFileSync   writeFileSync: 写文件
+  nestedtext
+    ntDecode
+  #:
+    测试
+  walk:@
+    walkRel
+  thisdir
+  chokidar
+  yargs
+
+  yargs/helpers
+    hideBin
+
+  ./编译
+
+
+a = '
+  1\
+  2\
+  3
+'
+
+b = "
+  4
+  5
+  6
+"
+
+c = `${a} ${b + b}`
++
+  a = Math.max(
+    1
+    2
+  )
+
+-
+  a = 1
+
+- b = 2
+- c = 3
+  d = 4
