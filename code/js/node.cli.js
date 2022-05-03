@@ -14,6 +14,6 @@ import yargs from 'yargs'
 import {hideBin} from 'yargs/helpers'
 import 编译 from './编译'
     '\n  1  2  3\n'
-    "\n  4\n  5\n  6\n"
+    {'1':'4',b:'3'}
     `${a} ${b + b}`
 //# sourceMappingURL=node.cli.js.map

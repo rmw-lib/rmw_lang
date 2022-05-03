@@ -3,10 +3,13 @@
 import {camelCase} from 'lodash-es'
 
 import {字符串,导入别名冒号,单行注释,多行注释,模块,模块导入} from './态'
+import nt2json5 from '@rmw/nt2json5'
 
 export default 译 = {}
 
 译[字符串] = (文)=>
+  if 文[0] == '"'
+    文 = nt2json5 JSON.parse 文
   文
 
 译[单行注释] = (文)=>
